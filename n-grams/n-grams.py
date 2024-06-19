@@ -22,7 +22,7 @@ with st.expander("Instructions"):
     **Ensure the column names exactly match the ones specified above.**
     """)
     st.subheader("Sample CSV:")
-    df = pd.read_csv("C:/Users/HP/OneDrive/Desktop/Office/n-grams/n-gramsample.csv")
+    df = pd.read_csv("n-grams/n-gramsample.csv")
     st.write(
     f"""
     <div style="height: 300px; width: 1000px; overflow: auto;">
